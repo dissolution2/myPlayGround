@@ -46,7 +46,7 @@ res.send('hello world');
   
 
 const PORT = 8080;
-app.listen(PORT || 3000, () => {
+app.listen(PORT, () => {
   console.log(`server is lisening on port ${PORT}`);
 });
 
